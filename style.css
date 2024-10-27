@@ -51,3 +51,10 @@ html {
     letter-spacing: .1rem;
     color: #ffc600;
   }
+
+.key:hover {
+    color: #ff9900;          /* Change color on hover to a brighter shade */
+    transform: scale(1.08);   /* Slightly enlarge the text */
+    transition: transform 0.2s ease, color 0.2s ease; /* Smooth transition */
+    text-shadow: 0 0 0.5rem #ff9900; /* Add a glowing shadow effect */
+}
